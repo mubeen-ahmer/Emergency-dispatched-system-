@@ -1,0 +1,4 @@
+3
+201 2 ambulance available
+203 4 fire available
+204 4 police available

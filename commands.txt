@@ -1,0 +1,29 @@
+28
+Added Location 0
+Added Location 1
+Added Location 2
+Added Location 3
+added road from 0 to 1
+added road from 1 to 2
+added road from 2 to 3
+Changed max hops from 2 to 4
+Logged incident ID 101
+Added Location 4
+Added Location 5
+Added Location 6
+added road from 1 to 3
+added road from 3 to 4
+Added Vehicle 201
+added road from 3 to 5
+added road from 4 to 6
+added road from 5 to 4
+added road from 6 to 0
+Logged incident ID 102
+Added Vehicle 203
+added road from 1 to 0
+added road from 0 to 2
+added road from 2 to 4
+added road from 3 to 6
+added road from 5 to 6
+added road from 6 to 4
+Added Vehicle 204
