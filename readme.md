@@ -2,12 +2,29 @@
 
 A console-based C++ application simulating a centralized emergency dispatch system. All data structures (heap, hash table, graph, AVL tree, queue, stack) are implemented from scratch — no STL containers used.
 
+---
+
+## Screenshots
+
+<img src="assets/menu.png" alt="Menu Screen" width="400">
+<img src="assets/addvehicle.png" alt="Add Vehicle Screen" width="400">
+<img src="assets/start.png" alt="Start Screen" width="400">
+
+---
+
 ## Overview
 
 The system manages incoming emergency incidents, dispatches the nearest available vehicle using BFS on a city map graph, and maintains a full historical log of resolved incidents with file persistence across sessions.
 
 ```bash
+# Clone the repository
+git clone https://github.com/mubeen-ahmer/Emergency-dispatched-system-.git
+cd Emergency-dispatched-system-
+
+# Compile the project
 g++ main.cpp -o ERDS
+
+# Run the executable
 ./ERDS
 ```
 
@@ -49,13 +66,15 @@ Resolve Incident → Insert record into AVL Tree
 ```
 ERDS/
 ├── main.cpp
-├── IncidentMinHeap.cpp / .h
-├── VehicleHashTable.cpp / .h
-├── CityMapGraph.cpp / .h
-├── HistoricalAVL.cpp / .h
-├── TaskQueue.cpp / .h
-├── CommandStack.cpp / .h
-└── data/               # Saved state files
+├── commands.txt
+├── config.txt
+├── dispatched.txt
+├── graph.txt
+├── history.txt
+├── incidents.txt
+├── tasks.txt
+├── vehicles.txt
+└── readme.md            
 ```
 
 ---
